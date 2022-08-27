@@ -1,0 +1,144 @@
+body{
+  background-color: #801336;
+  background-image: url(http://www.transparenttextures.com/patterns/asfalt-light.png);
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  right: 0;
+  left: 0;
+  text-align: justify;
+}
+
+header{
+  width: 100%;
+  background-color:#C72C41;
+  position: fixed;
+  margin: -10px;
+  transition: 0.2s;
+  margin-top: -30px;
+  margin-left: 1px;
+  background-image: url(http://www.transparenttextures.com/patterns/argyle.png);
+  z-index: 5;
+  }
+  }
+
+ul {
+  list-style-type: none;
+  margin-left: 855px;
+  position: fixed;
+}
+
+li {
+  float: left;
+  padding: 60px;
+}
+
+#header-img {
+  padding: 70px;
+}
+
+img{
+  border-radius: 50%;
+}
+
+#submit {
+  display: block;
+  margin: 40px auto;
+  width: 40%;
+  padding: 15px;
+  font-size: 23px;
+  background: #d0d0d5;
+  border: 3px solid #3b3b4f;
+}
+
+iframe{
+  margin-top: 420px;
+  overflow: hidden;
+  width: 100%
+}
+
+#logo{
+  width: 50%;
+  float: left;
+}
+
+#site tabs{
+  float: right;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-bar a{
+    float: none;
+    width: 100%;
+  }
+}
+
+
+.offset:before {
+	display: block;
+ 	content: " ";
+  height: 350px;      /* Give height of your fixed element */
+  margin-top: -140px; /* Give negative margin of your fixed element */
+  visibility: hidden;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+a{
+  color: #2D132C;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+a:hover {
+  color: #EE4540;
+}
+
+main{
+  color: #ECDBBA;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  margin: 0;
+}
+
+#about_us{
+  padding-top: -50px;
+  line-height: 1.5;
+}
+
+span{
+  font-weight: bold;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.titles{
+  font-size: 70px;
+}
+
+#menu{
+  position: relative;
+  margin: -360;
+  text-align: center;
+  align-items: center;
+  width: 1300px;
+  padding-left: 450px;
+}
+
+
+#contact_us{
+  position: relative;
+  margin: -360;
+  padding-bottom: 20px;
+}
+
+#form-div{
+position:relative;
+}
